@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestHomeViewController">
+            <connections>
+                <outlet property="countiuneWacthScrollView" destination="Ju4-cD-vgW" id="bTa-Z9-IdK"/>
+                <outlet property="featureScrollview" destination="8po-Ns-z0K" id="9Ia-WS-w93"/>
+                <outlet property="mainscrollview" destination="22T-fA-8w0" id="xty-Wd-YnM"/>
+                <outlet property="musicScrollview" destination="ndb-h8-yru" id="C6W-ZS-ArB"/>
+                <outlet property="podcastsScrollview" destination="l1E-Lk-eoM" id="3e9-nq-65O"/>
+                <outlet property="popularScrollView" destination="NHj-lc-Twt" id="pe7-kn-ee0"/>
+                <outlet property="seriesScrollview" destination="xnK-fi-35z" id="tdW-NC-xmX"/>
+                <outlet property="shortScrollview" destination="XCk-1D-hgK" id="deH-Am-RRT"/>
+                <outlet property="spotlightScrollview" destination="ODi-tn-Nua" id="csp-S0-fNk"/>
+                <outlet property="trendingNowScrollview" destination="fPs-hA-6OT" id="jKZ-MK-jab"/>
+                <outlet property="view" destination="iN0-l3-epB" id="2Un-Bt-H8I"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22T-fA-8w0">
+                    <rect key="frame" x="0.0" y="71" width="1366" height="1366"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ju4-cD-vgW">
+                            <rect key="frame" x="0.0" y="500" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xnK-fi-35z">
+                            <rect key="frame" x="0.0" y="1825" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1E-Lk-eoM">
+                            <rect key="frame" x="0.0" y="2090" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ndb-h8-yru">
+                            <rect key="frame" x="0.0" y="2355" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCk-1D-hgK">
+                            <rect key="frame" x="0.0" y="1560" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8po-Ns-z0K">
+                            <rect key="frame" x="0.0" y="1295" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ODi-tn-Nua">
+                            <rect key="frame" x="0.0" y="35" width="1366" height="410"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-lc-Twt">
+                            <rect key="frame" x="0.0" y="765" width="1366" height="210"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPs-hA-6OT">
+                            <rect key="frame" x="0.0" y="1035" width="1366" height="210"/>
+                        </scrollView>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
+            <point key="canvasLocation" x="122" y="207"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestHomeViewController">
+            <connections>
+                <outlet property="activityIndicator" destination="yCP-LZ-X4T" id="WTF-Ge-2MQ"/>
+                <outlet property="countiuneWacthScrollView" destination="NhD-fc-Ajf" id="viJ-a4-cLj"/>
+                <outlet property="featureScrollview" destination="Svc-2n-RcJ" id="SKP-ly-ToG"/>
+                <outlet property="mainscrollview" destination="iW5-yO-G2a" id="6bK-m9-cIl"/>
+                <outlet property="musicScrollview" destination="aHw-h7-TVA" id="Skv-C0-Orb"/>
+                <outlet property="podcastsScrollview" destination="qK1-tz-DCj" id="3H8-wo-fQP"/>
+                <outlet property="popularScrollView" destination="9cX-AE-DZn" id="8OG-fj-QDp"/>
+                <outlet property="seriesScrollview" destination="OJD-KY-oIA" id="Jej-GR-MM5"/>
+                <outlet property="shortScrollview" destination="meK-Jc-dR6" id="H2j-tG-lyk"/>
+                <outlet property="spotlightScrollview" destination="0wa-Cs-Cwz" id="LSt-lM-6U7"/>
+                <outlet property="trendingNowScrollview" destination="bVE-cp-NOz" id="RGS-cl-8gX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW5-yO-G2a">
+                    <rect key="frame" x="0.0" y="51" width="414" height="732"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9cX-AE-DZn">
+                            <rect key="frame" x="0.0" y="567" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bVE-cp-NOz">
+                            <rect key="frame" x="0.0" y="707" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Svc-2n-RcJ">
+                            <rect key="frame" x="0.0" y="847" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0wa-Cs-Cwz">
+                            <rect key="frame" x="0.0" y="29" width="414" height="310"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJD-KY-oIA">
+                            <rect key="frame" x="0.0" y="1127" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meK-Jc-dR6">
+                            <rect key="frame" x="0.0" y="987" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qK1-tz-DCj">
+                            <rect key="frame" x="0.0" y="1267" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aHw-h7-TVA">
+                            <rect key="frame" x="0.0" y="1407" width="414" height="105"/>
+                        </scrollView>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NhD-fc-Ajf">
+                            <rect key="frame" x="0.0" y="377" width="414" height="155"/>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ie5-Fz-wEx"/>
+                    </connections>
+                </scrollView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="yCP-LZ-X4T">
+                    <rect key="frame" x="188" y="350" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+    </objects>
+</document>
